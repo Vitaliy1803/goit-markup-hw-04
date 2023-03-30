@@ -236,7 +236,7 @@ body {
 }
 
 .description {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.5;
@@ -328,16 +328,17 @@ body {
   border-radius: 4px;
 }
 
-/* .customers-link {
-  display: flex;
-
-} */
 
 /* footer */
 .footer {
   background-color: var(--hero-backround-color);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.container-footer {
+  display: flex;
+  gap: 120px;
 }
 
 .footer .description {
@@ -349,6 +350,45 @@ body {
 .logo-footer {
   color: #f4f4fd;
 }
+
+.footer-soc {
+  background-color: var(--hero-backround-color);
+}
+
+.footer-soc-description {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--footer-description-text-color);
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.footer-soc-list.list {
+  background-color: var(--hero-backround-color);
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+
+}
+
+.footer-soc-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--bc-worker-icon);
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 /* portfolio.html */
 
